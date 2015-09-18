@@ -11,6 +11,7 @@ import com.by.siarheihopsha.testzoo.constants.Constants;
 import com.by.siarheihopsha.testzoo.entity.Zoo;
 import com.by.siarheihopsha.testzoo.entity.animals.Animal;
 import com.by.siarheihopsha.testzoo.entity.animals.Cat;
+import com.by.siarheihopsha.testzoo.entity.animals.Che;
 import com.by.siarheihopsha.testzoo.entity.animals.Cow;
 import com.by.siarheihopsha.testzoo.entity.animals.Dog;
 import com.by.siarheihopsha.testzoo.entity.animals.Fox;
@@ -43,10 +44,10 @@ public class MainActivity extends FragmentActivity implements ControllerActivity
             Hare hare1 = new Hare("морковь", "александр", "грызу");
             Hare hare2 = new Hare("яблоко", "михаил", "кусаю");
             Horse horse1 = new Horse("сивая", "сено", "полина", "жую");
-            Horse horse2 = new Horse("рыжая", "траву", "елена", "щипаю");
             Wolf wolf = new Wolf("зайца", "евгений", "глотаю");
+            Che chebur = new Che();
 
-            zoo.add(cat1, cat2, cow1, cow2, dog1, dog2, fox1, fox2, hare1, hare2, horse1, horse2, wolf);
+            zoo.add(cat1, cat2, cow1, cow2, dog1, dog2, fox1, fox2, hare1, hare2, horse1, wolf, chebur);
             this.startZooFragment(zoo.getAnimals());
         }
 

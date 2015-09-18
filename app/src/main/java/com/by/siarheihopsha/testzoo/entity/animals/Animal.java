@@ -16,6 +16,8 @@ public abstract class Animal implements Parcelable {
     protected String name;
     protected String method;
 
+    public Animal() {}
+
     public Animal(String color, String food, String name, String method) {
         this.color = color;
         this.food = food;
@@ -35,6 +37,18 @@ public abstract class Animal implements Parcelable {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public void setFood(String food) {
+        this.food = food;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setMethod(String method) {
+        this.method = method;
     }
 
     public String getSpecies() {
