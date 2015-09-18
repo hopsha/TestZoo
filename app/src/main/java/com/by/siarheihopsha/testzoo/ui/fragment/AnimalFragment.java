@@ -8,15 +8,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.by.siarheihopsha.testzoo.R;
-import com.by.siarheihopsha.testzoo.adapter.AnimalAdapter;
 import com.by.siarheihopsha.testzoo.constants.Constants;
-import com.by.siarheihopsha.testzoo.entity.animals.Animal;
 
-import java.util.List;
-
-/**
- * A placeholder fragment containing a simple view.
- */
 public class AnimalFragment extends Fragment {
 
     public AnimalFragment() {

@@ -41,20 +41,8 @@ public abstract class Animal implements Parcelable {
         return species;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public String getFood() {
-        return food;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public String getMethod() {
-        return method;
     }
 
     public String introduce() {

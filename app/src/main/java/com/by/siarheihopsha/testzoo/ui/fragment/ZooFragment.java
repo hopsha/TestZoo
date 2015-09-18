@@ -13,14 +13,9 @@ import com.by.siarheihopsha.testzoo.adapter.AnimalAdapter;
 import com.by.siarheihopsha.testzoo.constants.Constants;
 import com.by.siarheihopsha.testzoo.entity.animals.Animal;
 import com.by.siarheihopsha.testzoo.ui.activity.ControllerActivity;
-import com.by.siarheihopsha.testzoo.ui.activity.MainActivity;
 
 import java.util.ArrayList;
-import java.util.List;
 
-/**
- * A placeholder fragment containing a simple view.
- */
 public class ZooFragment extends ListFragment {
 
     private ControllerActivity controller;

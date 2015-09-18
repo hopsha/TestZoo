@@ -1,9 +1,7 @@
 package com.by.siarheihopsha.testzoo.ui.activity;
 
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,7 +21,6 @@ import com.by.siarheihopsha.testzoo.ui.fragment.AnimalFragment;
 import com.by.siarheihopsha.testzoo.ui.fragment.ZooFragment;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends FragmentActivity implements ControllerActivity {
 
